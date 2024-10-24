@@ -49,4 +49,12 @@ public class Game {
         }
         System.out.println("최종 우승자 : " + String.join(", ", winners));
     }
+
+    public List<Car> getCars() {
+        return cars;
+    }
+
+    public int getRound() {
+        return round;
+    }
 }
